@@ -1,0 +1,11 @@
+{
+    "CheckFolder": "F:/未看过的",
+    "MysqlUser": "root",
+    "MysqlPassword": "root",
+    "MysqlPort": "3306",
+    "MysqlDBName": "duplicatefile",
+    "SqlFileExistByMD5": "select 1 from files where file_md5 = ?",
+    "SqlInsertFile": "insert into files (file_name, file_size,file_dir,disk_sn,file_md5) values (?,?,?,?,?)",
+    "DiskSn": "DISK_SN",
+    "DeleteDuplicateFile": false
+}
